@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nWI68Xhn879Y/ooBW4rOyXXNS1Au4Sk4S14vhyjeyt/sSkWsyLcPGtAtzpVgumqytWvFC27P5WvxQt1iJo4E6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Projeler\\UnluCoBootcamp\\UnluCoHafta1\\UnluCoHafta1\\UnluCoHafta1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arsla\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\arsla\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\arsla\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\arsla\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\arsla\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\arsla\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

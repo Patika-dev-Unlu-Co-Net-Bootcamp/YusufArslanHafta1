@@ -62,7 +62,28 @@ namespace UnluCoHafta1.Controllers
             return Created("Ağaç eklendi.",newTree);
         }
 
-        
+        [HttpPatch("/editNote/{id}")]
+        public IActionResult EditNote(int id, string note)
+        {
+            var editTree = trees.Find(item => item.ID == id);
+            if (editTree is null)
+                return BadRequest("Ağaç bulunamadı.");
+            if (note is null)
+                return BadRequest("Note değeri boş bırakılamaz.");
+            editTree.Note = note!=default ? note : editTree.Note;
+
+            return Ok();
+        }
+
+        [HttpDelete("/delete/{id}")]
+        public IActionResult Delete(int id)
+        {
+            var deleteTree = trees.Find(item => item.ID == id);
+            if (deleteTree is null)
+                return BadRequest("Ağaç bulunamadı.");
+            trees.Remove(deleteTree);
+            return Ok();
+        }
         
     }
 }
